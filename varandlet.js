@@ -16,6 +16,18 @@ function b(){
     }
     console.log(i);// I cant access. because it s in the scope
     console.log(result);
+    
 }
 
 b();
+
+
+var a =10;
+console.log(a++);
+
+const bb =10;
+console.log(bb++);  // Error
+
+const c=[2];
+c[0]++;
+console.log(c[0]); // No error
