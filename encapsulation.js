@@ -24,4 +24,3 @@ define("foo1",function(){
     }
 });
 
-foo1();
