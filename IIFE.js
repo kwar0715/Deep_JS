@@ -1,9 +1,21 @@
-var foo ="bob"
+var foo ="foo";
 
 
-(function iife(){
+// without name
+(function() {
+    console.log("IIFE");
+}());
+
+// with name
+
+(function bob(){
     var foo ="doo2";
     console.log(foo);
 })();
 
-console.log(foo);
+// with params
+(function(bar){
+    console.log(bar);
+})(foo);
+
+

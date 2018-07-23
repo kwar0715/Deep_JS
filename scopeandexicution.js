@@ -17,5 +17,4 @@ function bar(){
 bar();
 foo;
 console.log(bam);
-//baz(); // Error : no Baz Found
-bar=>baz=>inner();
+baz(); // Error : no Baz Found
